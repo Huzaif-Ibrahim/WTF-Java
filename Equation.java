@@ -4,9 +4,9 @@ class Equation{
     public static void main(String[] args){
         String n;
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter the equation : ");
+        System.out.print("Enter the equation : ");
         n = s.nextLine();
-        String a = n.replaceAll("", "");
+        String a = n.replaceAll("","");
 
         if(a.length() < 3){
             System.out.println("Enter the equation : ");
