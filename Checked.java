@@ -26,6 +26,6 @@ class Checked{
             System.out.println("File not found "+ e.getMessage());
         } catch(IOException e){
             System.out.println("Error reading file " + e.getMessage());
-        }
+        } 
     }
-}
+}                               
